@@ -1,0 +1,22 @@
+<div>
+    <div class="float-end">
+        <button class="m-3 btn btn-success" (click)="onClickGrid()"  >Grid View</button>
+        <button class="btn btn-primary m-3" (click)="onClickList()"  >List View</button>
+        <select name="price" id="" class="dropdown" (change)="onPriceChange($event)">
+            <option value="lowToHigh">Price: Low to High</option>
+            <option value="highToLow">Price: High to Low</option>
+        </select>
+    </div>
+    <div class="clearfix"></div>
+</div>
+<div class="main">
+    
+    <div 
+        *ngFor="let product of products | order:'price':filterPrice"
+        class="child p-4" [ngClass]="{'grid': viewType === 'grid', 'list' : viewType === 'list' }">
+        <p class="text-center text-warning">
+            Id:{{product.id}} <br>
+           Price: {{product.price}}
+
+        </p>
+    </div>

@@ -1,0 +1,20 @@
+.main {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .child {
+    border: 1px solid black;
+    height: 100px;
+    // background-color: green ;
+  }
+
+  .list{
+    flex: 1 0 calc(50% - 10px);
+    margin:5px;
+  }
+
+  .grid{
+    flex: 1 0 calc(25% - 10px);
+    margin:5px;
+  }

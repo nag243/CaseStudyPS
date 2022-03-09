@@ -1,0 +1,100 @@
+{
+    "students": [
+        {
+            "Name": "Zovia",
+            "Class": 12,
+            "Section": "D",
+            "Sub1": 90,
+            "Sub2": 92,
+            "Sub3": 94
+        },
+        {
+            "Name": "Aggragor",
+            "Class": 4,
+            "Section": "A",
+            "Sub1": 35,
+            "Sub2": 40,
+            "Sub3": 45
+        },
+        {
+            "Name": "Ben",
+            "Class": 5,
+            "Section": "B",
+            "Sub1": 50,
+            "Sub2": 55,
+            "Sub3": 60
+        },
+        {
+            "Name": "Max",
+            "Class": 6,
+            "Section": "C",
+            "Sub1": 65,
+            "Sub2": 70,
+            "Sub3": 75
+        },
+        {
+            "Name": "Stark",
+            "Class": 5,
+            "Section": "E",
+            "Sub1": 86,
+            "Sub2": 70,
+            "Sub3": 34
+        },
+        {
+            "Name": "Jhonson",
+            "Class": 6,
+            "Section": "D",
+            "Sub1": 90,
+            "Sub2": 36,
+            "Sub3": 43
+        },
+        {
+            "Name": "Maxten",
+            "Class": 4,
+            "Section": "A",
+            "Sub1": 40,
+            "Sub2": 86,
+            "Sub3": 28
+        },
+        {
+            "Name": "Ashley",
+            "Class": 3,
+            "Section": "G",
+            "Sub1": 34,
+            "Sub2": 46,
+            "Sub3": 59
+        },
+        {
+            "Name": "Rock",
+            "Class": 9,
+            "Section": "C",
+            "Sub1": 25,
+            "Sub2": 80,
+            "Sub3": 47
+        },
+        {
+            "Name": "LinDan",
+            "Class": 2,
+            "Section": "F",
+            "Sub1": 20,
+            "Sub2": 15,
+            "Sub3": 40
+        },
+        {
+            "Name": "LeeChanWie",
+            "Class": 10,
+            "Section": "A",
+            "Sub1": 70,
+            "Sub2": 85,
+            "Sub3": 80
+        },
+        {
+            "Name": "Victor",
+            "Class": 9,
+            "Section": "F",
+            "Sub1": 100,
+            "Sub2": 39,
+            "Sub3": 43
+        }
+    ]
+}

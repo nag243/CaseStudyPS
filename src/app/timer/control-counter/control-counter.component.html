@@ -1,0 +1,22 @@
+<div class="container border border-dark p-5">
+    <div>
+        <label for="timer">Enter Timer Limit</label>
+        <input class="m-3 " type="number" name="timer" [disabled]="disableInput" min=0 #timerInput>
+        <p class="text-danger">{{showErrorMsg}}</p>
+    </div>
+    <div class="m-3 mt-1">
+        <button class="btn btn-sm btn-success me-3" (click)="startPauseCounter($event)">Start/Pause</button>
+        <button class="btn btn-sm btn-outline-dark" (click)="resetTimer()">Reset</button>
+    </div>
+
+    <!-- <div class="col-sm-4">
+        <div class="row px-5 py-5">
+            <div class="col">
+                <p class="fs-4 fw-bolder">Started at</p>
+            </div>
+            <div class="col">
+                <p class="fs-4 fw-bolder">Paused at</p>
+            </div>
+        </div>
+    </div> -->
+</div>

@@ -1,0 +1,34 @@
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <a class="navbar-brand" [routerLink]="['/banner']">Case Study</a>
+    <!-- <button class="navbar-toggler" type="button" (click)="toggleMenu(menu, menu.classList.value)" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button> -->
+    <div class="collapse navbar-collapse" #menu collapseNav id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" [routerLink]="['/banner']" routerLinkActive="active">Banner</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" [routerLink]="['/products']" routerLinkActive="active">Products</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" [routerLink]="['/students-marks']" routerLinkActive="active">Student Marks Grid</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" [routerLink]="['/dynamic-div']" routerLinkActive="active">Create Div</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" [routerLink]="['/timer']" routerLinkActive="active">Timer</a>
+            </li>
+             <li class="nav-item">
+                <a class="nav-link" [routerLink]="['/timer2']" routerLinkActive="active">Timer-2</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="container mt-5">
+    <router-outlet></router-outlet>
+</div>
